@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Sintomas</title>
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend> <b>Formulário do Paciente</b></legend>
+                <br>
+                <div class="inputbox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome">Nome Completo</label>
+                </div>
+                <div class="inputbox">
+                    <input type="text" name="cpf" id="cpf" class="inputUser" required>
+                    <label for="cpf">Cpf</label>
+                </div>
+                <div class="inputbox">
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                    <label for="telefone">Telefone</label>
+                </div>
+                <p>Sexo: </p>
+                <input type="radio" id="feminino" name="genero" value="feminino">
+                <label for="feminino">Feminino</label>
+                <input type="radio" id="masculino" name="genero" value="masculino">
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="outro" name="genero" value="outro">
+                <label for="outro">Outro</label>
+
+                <div class="inputbox">
+                    <label for="data_nascimento"> <b>Data de Nascimento</b></label>
+                    <input type="date" name="data_nascimento" id="data_nascimento" class="inputUser" required>
+                </div>
+
+                <div class="inputbox">
+                    <label for="local_dor">Onde o paciente está sentindo dor?</label>
+                    <input type="text" name="local_dor" id="local_dor" class="inputUser" required>
+                    
+                </div>
+                
+                <div class="inputbox">
+                    <label for="nivel_dor">Nível da dor:</label>
+                    <select name="nivel_dor" id="nivel_dor" class="inputUser" required>
+                    
+                        <option value="muito_forte">Muito Forte</option>
+                        <option value="mais_ou_menos">Mais ou Menos</option>
+                        <option value="fraca">Fraca</option>
+                    </select>
+                </div>
+               
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
